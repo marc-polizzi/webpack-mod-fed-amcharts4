@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8cc16600-7571-4e80-b06a-21429389e6d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webpack-mod-fed-amcharts4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amcharts4/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amcharts4/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amcharts4/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amcharts4/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amcharts4/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amcharts4/src/@types/custom.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amcharts4/src/PluginDefinition.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amcharts4/src/bootstrap.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amcharts4/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amcharts4/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amcharts4/webpack.dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reporting/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reporting/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reporting/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reporting/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reporting/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reporting/src/@types/custom.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reporting/src/RemoteContainerUtils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reporting/src/RemotePluginUtils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reporting/src/bootstrap.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reporting/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reporting/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reporting/webpack.dev.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mxXB7QQpbR0luHsH5oNcBlDgMc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.google.cloudcode.ide_session_index" value="20210112_0001" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../w-mod-fed" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="start amCharts4" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/amcharts4/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start amCharts4" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start reporting" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/reporting/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start reporting" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start reporting" />
+        <item itemvalue="npm.start amCharts4" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8cc16600-7571-4e80-b06a-21429389e6d4" name="Default Changelist" comment="" />
+      <created>1610436079365</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610436079365</updated>
+      <workItem from="1610436081161" duration="20000" />
+      <workItem from="1610436247825" duration="322000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
