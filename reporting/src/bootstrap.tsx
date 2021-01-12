@@ -23,7 +23,7 @@ const plugin = {
 RemotePluginUtils.setupRemotePlugin(plugin, (widgets: any[]) => {
 
     const elem = document.getElementById("info");
-    elem && (elem.innerHTML = "Exported plugin : " + (widgets.length > 0 ? widgets[0] : "missing"));
+    elem && (elem.innerHTML = "Imported plugin : " + (widgets.length > 0 ? widgets[0] : "missing"));
 
 });
 
