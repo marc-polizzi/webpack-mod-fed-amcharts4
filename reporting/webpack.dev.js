@@ -83,7 +83,9 @@ module.exports = {
         new ModuleFederationPlugin({
             name: "reporting",
             shared: {
-                "@amcharts/amcharts4": {singleton: true},
+                "react": "^17.0.1",
+                "react-dom": "^17.0.1",
+                "@amcharts/amcharts4": "^4.10.13",
             },
         }),
 

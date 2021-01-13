@@ -1,3 +1,4 @@
+import React from "react";
 import * as am4core from "@amcharts/amcharts4/core";
 
 console.log("[amCharts4] options.commercialLicense :" , am4core.options.commercialLicense);
@@ -21,7 +22,8 @@ const PluginDefinition = {
 
         console.log("[amCharts4] registerWidgets")
 
-        manager.registerWidget("line-chart");
+        manager.registerWidget(<b>line-chart</b>);
+        manager.registerWidget(<b>bar-chart</b>);
 
     }
 

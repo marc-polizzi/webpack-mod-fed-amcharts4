@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cc16600-7571-4e80-b06a-21429389e6d4" name="Default Changelist" comment="intial commit">
+    <list default="true" id="8cc16600-7571-4e80-b06a-21429389e6d4" name="Default Changelist" comment="devTools image">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amcharts4/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/amcharts4/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amcharts4/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/amcharts4/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amcharts4/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/amcharts4/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amcharts4/src/PluginDefinition.ts" beforeDir="false" afterPath="$PROJECT_DIR$/amcharts4/src/PluginDefinition.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amcharts4/src/bootstrap.ts" beforeDir="false" afterPath="$PROJECT_DIR$/amcharts4/src/bootstrap.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amcharts4/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/amcharts4/webpack.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reporting/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/reporting/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reporting/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/reporting/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reporting/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/reporting/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reporting/src/bootstrap.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/reporting/src/bootstrap.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reporting/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/reporting/webpack.dev.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,19 +46,27 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.google.cloudcode.ide_session_index" value="20210112_0001" />
+    <property name="com.google.cloudcode.ide_session_index" value="20210113_0000" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../w-mod-fed" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/reporting/node_modules/typescript/lib" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.start amCharts4">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -72,10 +91,21 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start version" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/reporting/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start version" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="npm.start reporting" />
         <item itemvalue="npm.start amCharts4" />
+        <item itemvalue="npm.start version" />
       </list>
     </recent_temporary>
   </component>
@@ -88,7 +118,8 @@
       <option name="presentableId" value="Default" />
       <updated>1610436079365</updated>
       <workItem from="1610436081161" duration="20000" />
-      <workItem from="1610436247825" duration="1176000" />
+      <workItem from="1610436247825" duration="2534000" />
+      <workItem from="1610514033955" duration="1622000" />
     </task>
     <task id="LOCAL-00001" summary="intial commit">
       <created>1610436661464</created>
@@ -104,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610436784461</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="devTools image">
+      <created>1610438017512</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610438017512</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,10 +158,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="intial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="intial commit" />
+    <MESSAGE value="devTools image" />
+    <option name="LAST_COMMIT_MESSAGE" value="devTools image" />
   </component>
 </project>
