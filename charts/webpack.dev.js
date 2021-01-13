@@ -80,9 +80,18 @@ module.exports = {
                 "./PluginDefinition": "./src/PluginDefinition",
             },
             shared: {
-                "react": "^17.0.1",
-                "react-dom": "^17.0.1",
-                "@amcharts/amcharts4": "^4.10.13",
+                "react": {
+                    requiredVersion: "^17.0.1",
+                    singleton: true,
+                },
+                "react-dom": {
+                    requiredVersion: "^17.0.1",
+                    singleton: true,
+                },
+                "@amcharts/amcharts4": {
+                    requiredVersion: "^4.10.13",
+                    singleton: true,
+                },
             },
         }),
 
