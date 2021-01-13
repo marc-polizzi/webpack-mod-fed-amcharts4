@@ -2,18 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cc16600-7571-4e80-b06a-21429389e6d4" name="Default Changelist" comment="devTools image">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amcharts4/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/amcharts4/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amcharts4/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/amcharts4/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amcharts4/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/amcharts4/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amcharts4/src/PluginDefinition.ts" beforeDir="false" afterPath="$PROJECT_DIR$/amcharts4/src/PluginDefinition.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amcharts4/src/bootstrap.ts" beforeDir="false" afterPath="$PROJECT_DIR$/amcharts4/src/bootstrap.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amcharts4/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/amcharts4/webpack.dev.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reporting/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/reporting/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reporting/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/reporting/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reporting/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/reporting/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amcharts4/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/charts/.eslintignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amcharts4/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/charts/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amcharts4/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/charts/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amcharts4/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/charts/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amcharts4/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/charts/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amcharts4/src/@types/custom.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/charts/src/@types/custom.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amcharts4/src/PluginDefinition.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/charts/src/PluginDefinition.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amcharts4/src/bootstrap.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/charts/src/bootstrap.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amcharts4/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/charts/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amcharts4/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/charts/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amcharts4/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/charts/webpack.dev.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reporting/src/bootstrap.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/reporting/src/bootstrap.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reporting/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/reporting/webpack.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wmf.png" beforeDir="false" afterPath="$PROJECT_DIR$/wmf.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +75,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="start amCharts4 (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/charts/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start amCharts4" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start amCharts4" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/amcharts4/package.json" />
       <command value="run" />
@@ -104,6 +118,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.start reporting" />
+        <item itemvalue="npm.start amCharts4 (1)" />
         <item itemvalue="npm.start amCharts4" />
         <item itemvalue="npm.start version" />
       </list>
@@ -119,7 +134,7 @@
       <updated>1610436079365</updated>
       <workItem from="1610436081161" duration="20000" />
       <workItem from="1610436247825" duration="2534000" />
-      <workItem from="1610514033955" duration="1622000" />
+      <workItem from="1610514033955" duration="3424000" />
     </task>
     <task id="LOCAL-00001" summary="intial commit">
       <created>1610436661464</created>
@@ -142,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610438017512</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding React to compare w/ amCharts 4">
+      <created>1610515745965</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610515745965</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +186,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="intial commit" />
     <MESSAGE value="devTools image" />
-    <option name="LAST_COMMIT_MESSAGE" value="devTools image" />
+    <MESSAGE value="adding React to compare w/ amCharts 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding React to compare w/ amCharts 4" />
   </component>
 </project>

@@ -74,7 +74,7 @@ module.exports = {
     plugins: [
 
         new ModuleFederationPlugin({
-            name: "amCharts4",
+            name: "charts",
             filename: "remoteEntry.js",
             exposes: {
                 "./PluginDefinition": "./src/PluginDefinition",

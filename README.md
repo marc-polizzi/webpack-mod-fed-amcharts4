@@ -9,8 +9,12 @@ amCharts v4 module federation demo: issue w/ shared/singleton setup
                 "./PluginDefinition": "./src/PluginDefinition",
             },
             shared: {
-                "@amcharts/amcharts4": {singleton: true},
+                "react": "^17.0.1",
+                "react-dom": "^17.0.1",
+                "@amcharts/amcharts4": "^4.10.13",
             },
         }),
+
+while React library is loaded once, amCharts 4 is loaded twice.
 
 ![WMF](./wmf.png?raw=true "WMF")

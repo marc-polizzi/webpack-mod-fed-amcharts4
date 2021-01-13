@@ -19,7 +19,7 @@ console.log("[reporting] options.licenses          :", ...am4core.options.licens
 
 const plugin = {
     url: "http://localhost:3100/remoteEntry.js",
-    scope: "amCharts4",
+    scope: "charts",
     module: "./PluginDefinition",
 };
 
